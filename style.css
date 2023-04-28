@@ -1,0 +1,163 @@
+body {
+    background: rgba(19, 19, 20, 0.877);
+    color: rgb(208, 209, 209);
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    background: rgba(31, 31, 32, 0.733);
+    box-shadow: 6px 6px 20px rgba(208, 209, 209, 0.055);
+}
+
+aside {
+    width: 370px;
+    height: 2500px;
+    background: rgb(208, 209, 209);
+    color: rgba(19, 19, 20, 0.877);
+    padding: 10px 15px 10px 15px;
+}
+
+.cv-photo {
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.aside-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(19, 19, 20, 0.877);
+    margin-bottom: 0;
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.contact-links {
+    color: rgba(19, 19, 20, 0.877);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.bold {
+    font-weight: 400;
+    color: rgb(180, 117, 0);
+    margin: 0;
+    padding: 0;
+}
+.list-secondary {
+    color: rgb(180, 117, 0);
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.list-secondary-item {
+    color: rgba(19, 19, 20, 0.877);
+}
+
+.contact-block {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.project-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.contact-links-address {
+    color: rgba(19, 19, 20, 0.877);
+    font-weight: 200px;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.agreement {
+    margin-top: 47px;
+}
+
+main {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+}
+
+.main-description {
+    margin: 20px 40px 20px 40px;
+    padding: 40px 10px 5px 3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(208, 209, 209);
+    margin-bottom: 0;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(208, 209, 209);
+    margin-bottom: 0;
+}
+
+.experience {
+    margin-top: 0;
+    width: 485px;
+}
+
+.header-secondary {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.job-position {
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.highlight {
+    color: rgb(180, 117, 0);
+}
+.job-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(208, 209, 209, 0.548);
+}
+table caption {
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+}
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #a13d3d;
+}
